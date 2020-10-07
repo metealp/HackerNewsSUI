@@ -11,6 +11,10 @@
 		EF9D9608252E53FF008B3179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D9607252E53FF008B3179 /* ContentView.swift */; };
 		EF9D960A252E5401008B3179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9D9609252E5401008B3179 /* Assets.xcassets */; };
 		EF9D960D252E5401008B3179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9D960C252E5401008B3179 /* Preview Assets.xcassets */; };
+		EF9D9618252E5453008B3179 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D9617252E5453008B3179 /* DetailView.swift */; };
+		EF9D961B252E546B008B3179 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D961A252E546B008B3179 /* WebView.swift */; };
+		EF9D961F252E54B8008B3179 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D961E252E54B8008B3179 /* NetworkManager.swift */; };
+		EF9D9623252E54DF008B3179 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D9622252E54DF008B3179 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		EF9D9609252E5401008B3179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF9D960C252E5401008B3179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF9D960E252E5401008B3179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9D9617252E5453008B3179 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EF9D961A252E546B008B3179 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EF9D961E252E54B8008B3179 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EF9D9622252E54DF008B3179 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EF9D9605252E53FF008B3179 /* HackerNewsSUIApp.swift */,
-				EF9D9607252E53FF008B3179 /* ContentView.swift */,
+				EF9D961D252E5486008B3179 /* Models */,
+				EF9D9615252E5411008B3179 /* Views */,
 				EF9D9609252E5401008B3179 /* Assets.xcassets */,
 				EF9D960E252E5401008B3179 /* Info.plist */,
 				EF9D960B252E5401008B3179 /* Preview Content */,
@@ -67,6 +76,25 @@
 				EF9D960C252E5401008B3179 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF9D9615252E5411008B3179 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D9607252E53FF008B3179 /* ContentView.swift */,
+				EF9D9617252E5453008B3179 /* DetailView.swift */,
+				EF9D961A252E546B008B3179 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF9D961D252E5486008B3179 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D961E252E54B8008B3179 /* NetworkManager.swift */,
+				EF9D9622252E54DF008B3179 /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9D9608252E53FF008B3179 /* ContentView.swift in Sources */,
+				EF9D9623252E54DF008B3179 /* PostData.swift in Sources */,
+				EF9D961B252E546B008B3179 /* WebView.swift in Sources */,
+				EF9D961F252E54B8008B3179 /* NetworkManager.swift in Sources */,
+				EF9D9618252E5453008B3179 /* DetailView.swift in Sources */,
 				EF9D9606252E53FF008B3179 /* HackerNewsSUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
